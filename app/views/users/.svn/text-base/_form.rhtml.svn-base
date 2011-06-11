@@ -1,9 +1,0 @@
-<table style="align :center">
-  <tr><td>Name</td><td><%= form.text_field :name %></td></tr>
-  <tr><td>UserName</td><td><%= form.text_field :username %></td></tr>
-  <tr><td>Password</td><td><%= form.password_field :password %></td></tr>
-  <tr><td>Confirm Password</td><td><%= form.password_field :password_confirmation %>
-  <tr><td>Email</td><td><%= text_field :user,:email %></td></tr>
-  <tr><td>Challange Question</td><td><%= text_field :user, :question %></td></tr>
-  <tr><td>Answer</td><td><%= text_field :user, :answer %></td></tr>
-</table>

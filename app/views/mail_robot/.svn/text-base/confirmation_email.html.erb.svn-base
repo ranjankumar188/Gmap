@@ -1,3 +1,0 @@
-Welcome <%= @first_name%>,
-Click on Confirmation Link below to active your account
-<%=@confirmation_code%>

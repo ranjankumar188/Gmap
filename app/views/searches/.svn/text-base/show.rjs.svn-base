@@ -1,4 +1,0 @@
-page << @marker.declare("my_marker")
-page << @map.add_overlay(@marker)
-page << @marker.openInfoWindowHtml(@info_window);
-page << @marker.on_mouseover("function(){ my_marker.openInfoWindowHtml('#{@info_window}');}")

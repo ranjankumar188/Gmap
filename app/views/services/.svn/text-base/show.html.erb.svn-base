@@ -1,9 +1,0 @@
-<table>
-<tr><th>Title</th>
-	<th>Start At</th>
-	<th>End At</th>
-</tr>
-<tr><td><%=@service.title%></td><td><%=@service.start_at.strftime("At %I:%M%p")%></td><td><%=@service.end_at.strftime("At %I:%M%p")%></td></tr>
-</table>
-<%= link_to 'Edit', [:edit,@church,@service] %> |
-<%= link_to 'Back', church_services_path(@church) %>

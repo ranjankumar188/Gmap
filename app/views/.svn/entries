@@ -1,55 +1,0 @@
-8
-
-dir
-373
-http://repserver/church_finder/trunk/app/views
-http://repserver/church_finder
-
-
-
-2008-08-06T11:31:25.428625Z
-373
-ranjank
-
-
-svn:special svn:externals svn:needs-lock
-
-
-
-
-
-
-
-
-
-
-
-297c3135-9e9b-f341-a023-5902745cba3e
-
-layouts
-dir
-
-users
-dir
-
-services
-dir
-
-churches
-dir
-
-events
-dir
-
-passwords
-dir
-
-sessions
-dir
-
-mail_robot
-dir
-
-searches
-dir
-

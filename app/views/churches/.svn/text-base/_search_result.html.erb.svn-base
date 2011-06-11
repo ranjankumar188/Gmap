@@ -1,6 +1,0 @@
-<table border=1 cellspacing=0 align="center" cellpaddng=10>
-<tr><th>Title</th><th>City</th><th>zip</th><th>Created By</th>
-<%for x in @church%>
-<tr><td><%=x.name%></td><td><%=x.city%></td><td><%=x.zip%></td><%=User.find(x.created_by).name%></tr>
-<%end%>
-</table>

@@ -1,6 +1,0 @@
-<ul>
-    <%  @denomination.each do |denomination| %>
-        <li><%= denomination.name%></li>
-    <% end %>
-  
-</ul>

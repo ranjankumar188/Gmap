@@ -1,98 +1,0 @@
-8
-
-dir
-373
-http://repserver/church_finder/trunk
-http://repserver/church_finder
-
-
-
-2008-08-06T11:31:25.428625Z
-373
-ranjank
-
-
-svn:special svn:externals svn:needs-lock
-
-
-
-
-
-
-
-
-
-
-
-297c3135-9e9b-f341-a023-5902745cba3e
-
-test
-dir
-
-cmd.exe.bak
-file
-
-
-
-
-2008-08-06T12:07:17.870444Z
-eeb024f2c81f0d55936fb825d21a91d6
-2008-07-10T05:40:38.603875Z
-2
-ranjank
-has-props
-
-app
-dir
-
-tmp
-dir
-
-log
-dir
-
-Rakefile
-file
-
-
-
-
-2008-08-06T12:07:17.901694Z
-17f2f134da4cd31ea095d5868ca89e86
-2008-07-10T05:40:38.603875Z
-2
-ranjank
-
-script
-dir
-
-config
-dir
-
-db
-dir
-
-doc
-dir
-
-lib
-dir
-
-vendor
-dir
-
-README
-file
-
-
-
-
-2008-08-06T12:07:17.932944Z
-0cdf56769f20a2b73a929ac3ba633152
-2008-07-10T05:40:38.603875Z
-2
-ranjank
-
-public
-dir
-

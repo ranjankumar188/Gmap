@@ -1,9 +1,0 @@
-<table>
-<tr><th>Title</th>
-	<th>Start At</th>
-	<th>End At</th>
-</tr>
-<tr><td><%=@event.title%></td><td><%=@event.start_at.strftime("At %I:%M%p")%></td><td><%=@event.end_at.strftime("at %I:%M%p")%></td></tr>
-</table>
-<%= link_to 'Edit', [:edit,@church,@event] %> |
-<%= link_to 'Back', church_events_path(@church) %>
