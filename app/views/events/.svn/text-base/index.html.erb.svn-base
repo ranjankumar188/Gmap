@@ -1,0 +1,33 @@
+<h1>Listing events</h1>
+<div class="add_church">Event Times</div><div class="new_service_div"><%= link_to_remote 'New event', :url => new_church_event_path(@church), :update => "event_#{@div_id}", :method => :get,:church_id=>@div_id,:before => "$('event_#{@div_id}').show()" %></div>
+<br/>
+
+<div id="event_<%=@div_id%>"></div>
+<table border=1 cellspacing=0>
+  <tr>
+  	
+	<th>Title </th>
+	<th>Start At </th>
+	<th>End At</th>
+  </tr>
+
+<% for event in @events %>
+  <tr>
+  	<td><%=event.title%></td>
+	<%if event.recurring == true%> 
+	<td><%=event.start_at.strftime("%a ")%><%=event.start_date.strftime(" %b %d ")%><%=event.start_at.strftime(" %I:%M%p ")%></td>
+	<td><%=event.end_at.strftime("%a ")%><%=event.end_date.strftime(" %b %d ")%><%=event.end_at.strftime(" %I:%M%p ")%></td>
+    <%else%>
+	<td><%=event.start_day%><%=event.start_at.strftime(" %I:%M%p ")%></td>
+	<td><%=event.end_day%><%=event.end_at.strftime(" %I:%M%p ")%></td>
+	<%end%>
+	<td><%= link_to_function 'Show', "$('#{event.id}').toggle();" %></td>
+    <td><%= link_to 'Edit', [:edit, @church, event] %></td>
+  </tr>
+		<div id=<%=event.id%> style="display :none"> <%=event.description%></div>
+<% end %>
+</table>
+
+<br />
+
+

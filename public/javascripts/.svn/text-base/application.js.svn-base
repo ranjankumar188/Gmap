@@ -1,0 +1,61 @@
+// Place your application-specific JavaScript functions and classes here
+// This file is automatically included by javascript_include_tag :defaults
+
+window.onload = init;
+
+function init() {
+  var rb = new RoundBorders();
+  if (Object.isFunction(searches_init)) {
+    searches_init(rb);
+  }
+  rb.render('ul#top_menu li','generic',0);
+}
+
+var RoundBorders = Class.create ({
+  initialize: function () {
+     var name = "Round Borders using Ruzee";
+  },
+
+  render: function (css_selector, name, border_size) {
+    var borders;
+
+    if (name == "tabs")
+      borders = RUZEE.ShadedBorder.create({ corner: 4, edges:"tlr", border:border_size });
+    else if (name == "generic")
+      borders = RUZEE.ShadedBorder.create({ corner: 4 , border: border_size});
+
+    $$(css_selector).each(function (element) {
+      if (name == "tabs")
+        borders.render(element);
+      else if (name == "generic")
+        borders.render(element);
+    });
+  }
+});
+	var current_count = 0;
+	var max_count = 255;
+	function event_hide()
+	{
+	var start_at = $('start_at');
+	var start_time=$('start_time')
+	start_at.style.display = $F("event_recurring") ? "block" : "none";
+	start_time.style.display = $F("event_recurring") ? "none" : "block";
+	}
+	
+	function service_hide()
+	{
+	var start_at = $('start_at');
+	var start_time=$('start_time')
+	start_at.style.display = $F("service_recurring") ? "block" : "none";
+	start_time.style.display = $F("service_recurring") ? "none" : "block";
+	}
+	
+	function textCounter(field, target){
+		if (field.value.length > max_count) {
+			field.value = field.value.substring(0, max_count);
+		}
+		else {
+			current_count = max_count - field.value.length;
+			target.value = current_count;
+		}
+	}

@@ -1,0 +1,40 @@
+8
+
+dir
+373
+http://repserver/church_finder/trunk/vendor/plugins/auto_complete/test
+http://repserver/church_finder
+
+
+
+2008-08-02T05:40:02.331000Z
+325
+ranjank
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+297c3135-9e9b-f341-a023-5902745cba3e
+
+auto_complete_test.rb
+file
+
+
+
+
+2008-08-06T12:07:02.932944Z
+6e0903a9a2b603046da6f7af49a5e55b
+2008-08-02T05:40:02.331000Z
+325
+ranjank
+

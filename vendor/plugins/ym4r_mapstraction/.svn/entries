@@ -1,0 +1,136 @@
+8
+
+dir
+373
+http://repserver/church_finder/trunk/vendor/plugins/ym4r_mapstraction
+http://repserver/church_finder
+
+
+
+2008-07-16T12:25:39.640625Z
+108
+ranjank
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+297c3135-9e9b-f341-a023-5902745cba3e
+
+test
+dir
+
+mapquest_api_key.yml.sample
+file
+
+
+
+
+2008-08-06T12:07:02.542319Z
+5dc83b10e533168d17eb472ac6ce4517
+2008-07-16T12:25:39.640625Z
+108
+ranjank
+
+map24_api_key.yml.sample
+file
+
+
+
+
+2008-08-06T12:07:02.573569Z
+0c2f44f92b04db55fea35f7a119b7d00
+2008-07-16T12:25:39.640625Z
+108
+ranjank
+
+rakefile.rb
+file
+
+
+
+
+2008-08-06T12:07:02.589194Z
+4786d0e36ab8ea605ced1b26a57971fd
+2008-07-16T12:25:39.640625Z
+108
+ranjank
+
+tasks
+dir
+
+init.rb
+file
+
+
+
+
+2008-08-06T12:07:02.636069Z
+93d70c4bebdc7084563525fb2c1bd868
+2008-07-16T12:25:39.640625Z
+108
+ranjank
+
+javascript
+dir
+
+lib
+dir
+
+gmaps_api_key.yml.sample
+file
+
+
+
+
+2008-08-06T12:07:02.667319Z
+8d6c08f0552b86404d64cd35446ac9a4
+2008-07-16T12:25:39.640625Z
+108
+ranjank
+
+install.rb
+file
+
+
+
+
+2008-08-06T12:07:02.682944Z
+868051f685d25d951744f589c2d0c4cf
+2008-07-16T12:25:39.640625Z
+108
+ranjank
+
+multimap_api_key.yml.sample
+file
+
+
+
+
+2008-08-06T12:07:02.714194Z
+ea59bf8bdff6b5406397bd628c21fd14
+2008-07-16T12:25:39.640625Z
+108
+ranjank
+
+README
+file
+
+
+
+
+2008-08-06T12:07:02.745444Z
+5f2a68b9bf7ab903f6853550cc7c4dde
+2008-07-16T12:25:39.640625Z
+108
+ranjank
+

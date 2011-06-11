@@ -1,0 +1,82 @@
+8
+
+dir
+373
+http://repserver/church_finder/trunk/vendor/plugins/activerecord_symbolize
+http://repserver/church_finder
+
+
+
+2008-08-05T11:29:37.067898Z
+367
+chirags
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+297c3135-9e9b-f341-a023-5902745cba3e
+
+test
+dir
+
+Rakefile
+file
+
+
+
+
+2008-08-06T12:07:08.776694Z
+4e9d0dee8d579e5bc74dd6b613e678b2
+2008-08-05T11:29:37.067898Z
+367
+chirags
+
+init.rb
+file
+
+
+
+
+2008-08-06T12:07:08.807944Z
+ff4066db0e2eac2e5e3b63fcecff2174
+2008-08-05T11:29:37.067898Z
+367
+chirags
+
+lib
+dir
+
+MIT-LICENSE
+file
+
+
+
+
+2008-08-06T12:07:08.839194Z
+cf76fb7585c344dffaafe1d4af8ad84d
+2008-08-05T11:29:37.067898Z
+367
+chirags
+
+README
+file
+
+
+
+
+2008-08-06T12:07:08.870444Z
+f81718d32256e83f2817cad7ede8d2b2
+2008-08-05T11:29:37.067898Z
+367
+chirags
+

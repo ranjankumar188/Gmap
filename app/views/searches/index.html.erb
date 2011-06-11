@@ -1,0 +1,52 @@
+	<% content_tag :div, :class => 'intro' do %>
+	 <% content_tag :span do %>
+ChurchServiceFinder.com provides Christian church service and event listings in the USA.<br /><%= link_to "Register", new_session_path, :class => 'underline' %>and add your church to the listings.<br />
+<%= link_to_function "View the current coverage map (TODO)", "alert('Show coverage map')" %>
+	 <% end %>
+	 
+	 <% end %>
+<p style="color: green;font-weight:bold;text-align :right"><%= flash[:notice] %></p>
+	 
+	<% content_tag :div , :id => 'search' do %>
+		<% form_for(:search, :url => searches_path, :method => :post) do |f| %>
+			<% content_tag :ul, :class => 'enter_search' do %>
+			 Starting Address: <%= content_tag(:li, text_field_tag ("search",value=session[:location]))%>
+			 <%= content_tag(:li, content_tag(:span, 'within ') + select( "map","miles", get_hash("miles"),:selected=>session[:mile]))%>
+			 <%= content_tag(:li, submit_tag( "Find a Church"))%>
+	   <% end %>
+		</form>
+		<%end -%>
+	<% end %>
+	
+	<% content_tag :ul , :class => 'search_tabs' do %>
+	 <% content_tag :li, :class => 'search_results' do %>
+	   <%= link_to_function 'Search Results(TODO)', 'alert("take me back to search results")' %>
+	 <% end %>
+	 <% content_tag :li, :class => 'filter_results' do %>
+	   <%=link_to_remote "Filter Search" , :update =>"search_result", :url => edit_search_path(1), :method => :get %>
+	<% end %>                                                                                        
+	<% end %>
+	
+	<div id="search_container">
+		<div id=map>
+		<%= GMap.header %>
+		<%= @map.to_html %>	
+		<%= @map.div() %>	
+	</div>
+  
+  
+	<div id="search_result">
+
+	<div class="starting_address">
+	Enter a Starting Address to begin the search.<i>Hide this when a search starts</i>
+	</div>
+	<table>
+	<%= render :partial=>'church_list'  %>
+	</table>
+	</div>
+
+  </div>
+<%= content_tag( :p, '', :class => 'clear_float') %>
+
+<div id="services"></div>
+

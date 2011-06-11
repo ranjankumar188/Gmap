@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/church_finder/!svn/ver/362/trunk/app/views/users
+END
+edit.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/church_finder/!svn/ver/362/trunk/app/views/users/edit.html.erb
+END
+index.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/church_finder/!svn/ver/276/trunk/app/views/users/index.html.erb
+END
+new.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/church_finder/!svn/ver/362/trunk/app/views/users/new.html.erb
+END
+_form.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/church_finder/!svn/ver/362/trunk/app/views/users/_form.rhtml
+END
+show.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/church_finder/!svn/ver/13/trunk/app/views/users/show.html.erb
+END

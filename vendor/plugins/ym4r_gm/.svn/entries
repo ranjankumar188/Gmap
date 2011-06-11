@@ -1,0 +1,100 @@
+8
+
+dir
+373
+http://repserver/church_finder/trunk/vendor/plugins/ym4r_gm
+http://repserver/church_finder
+
+
+
+2008-07-11T06:31:38.400750Z
+11
+ranjank
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+297c3135-9e9b-f341-a023-5902745cba3e
+
+test
+dir
+
+rakefile.rb
+file
+
+
+
+
+2008-08-06T12:07:10.261069Z
+6d176db349d151443800a52d9e69f738
+2008-07-11T06:31:38.400750Z
+11
+ranjank
+
+tasks
+dir
+
+init.rb
+file
+
+
+
+
+2008-08-06T12:07:10.292319Z
+ea412fb84450fce6aa268a22fd79bcac
+2008-07-11T06:31:38.400750Z
+11
+ranjank
+
+javascript
+dir
+
+lib
+dir
+
+gmaps_api_key.yml.sample
+file
+
+
+
+
+2008-08-06T12:07:10.307944Z
+8d6c08f0552b86404d64cd35446ac9a4
+2008-07-11T06:31:38.400750Z
+11
+ranjank
+
+install.rb
+file
+
+
+
+
+2008-08-06T12:07:10.370444Z
+2f4db2381749d786a1f2bdf3cfe9bddb
+2008-07-11T06:31:38.400750Z
+11
+ranjank
+
+README
+file
+
+
+
+
+2008-08-06T12:07:10.401694Z
+779204600dd849b422ebe3735da46876
+2008-07-11T06:31:38.400750Z
+11
+ranjank
+

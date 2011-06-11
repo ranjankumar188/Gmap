@@ -1,0 +1,52 @@
+8
+
+dir
+373
+http://repserver/church_finder/trunk/vendor/plugins/calendar_date_select/public/javascripts/calendar_date_select/locale
+http://repserver/church_finder
+
+
+
+2008-07-15T06:31:20.750000Z
+66
+ranjank
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+297c3135-9e9b-f341-a023-5902745cba3e
+
+pl.js
+file
+
+
+
+
+2008-08-06T12:07:07.307944Z
+11c575621d8e294c218c28ec80c55a46
+2008-07-15T06:31:20.750000Z
+66
+ranjank
+
+fi.js
+file
+
+
+
+
+2008-08-06T12:07:07.323569Z
+90413621ee3355fb1f3a282f28d1224b
+2008-07-15T06:31:20.750000Z
+66
+ranjank
+

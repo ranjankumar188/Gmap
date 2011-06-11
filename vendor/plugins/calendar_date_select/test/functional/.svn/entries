@@ -1,0 +1,52 @@
+8
+
+dir
+373
+http://repserver/church_finder/trunk/vendor/plugins/calendar_date_select/test/functional
+http://repserver/church_finder
+
+
+
+2008-07-15T06:31:20.750000Z
+66
+ranjank
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+297c3135-9e9b-f341-a023-5902745cba3e
+
+helper_methods_test.rb
+file
+
+
+
+
+2008-08-06T12:07:05.448569Z
+9a19a8683e81e68bc4470f267c894248
+2008-07-15T06:31:20.750000Z
+66
+ranjank
+
+calendar_date_select_test.rb
+file
+
+
+
+
+2008-08-06T12:07:05.479819Z
+e6af10394ebbc03c7495d08285db804d
+2008-07-15T06:31:20.750000Z
+66
+ranjank
+

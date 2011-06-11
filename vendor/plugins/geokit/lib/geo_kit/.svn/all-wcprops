@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/church_finder/!svn/ver/163/trunk/vendor/plugins/geokit/lib/geo_kit
+END
+acts_as_mappable.rb
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/church_finder/!svn/ver/163/trunk/vendor/plugins/geokit/lib/geo_kit/acts_as_mappable.rb
+END
+mappable.rb
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/church_finder/!svn/ver/11/trunk/vendor/plugins/geokit/lib/geo_kit/mappable.rb
+END
+ip_geocode_lookup.rb
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/church_finder/!svn/ver/11/trunk/vendor/plugins/geokit/lib/geo_kit/ip_geocode_lookup.rb
+END
+defaults.rb
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/church_finder/!svn/ver/11/trunk/vendor/plugins/geokit/lib/geo_kit/defaults.rb
+END
+geocoders.rb
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/church_finder/!svn/ver/11/trunk/vendor/plugins/geokit/lib/geo_kit/geocoders.rb
+END

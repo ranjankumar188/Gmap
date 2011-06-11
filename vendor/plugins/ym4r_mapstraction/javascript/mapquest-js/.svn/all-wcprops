@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/church_finder/!svn/ver/108/trunk/vendor/plugins/ym4r_mapstraction/javascript/mapquest-js
+END
+mqcommon.js
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/church_finder/!svn/ver/108/trunk/vendor/plugins/ym4r_mapstraction/javascript/mapquest-js/mqcommon.js
+END
+mqobjects.js
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/church_finder/!svn/ver/108/trunk/vendor/plugins/ym4r_mapstraction/javascript/mapquest-js/mqobjects.js
+END
+mqutils.js
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/church_finder/!svn/ver/108/trunk/vendor/plugins/ym4r_mapstraction/javascript/mapquest-js/mqutils.js
+END
+mqexec.js
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/church_finder/!svn/ver/108/trunk/vendor/plugins/ym4r_mapstraction/javascript/mapquest-js/mqexec.js
+END

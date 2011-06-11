@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/church_finder/!svn/ver/108/trunk/vendor/plugins/ym4r_mapstraction/lib/mapstraction_plugin
+END
+helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/church_finder/!svn/ver/108/trunk/vendor/plugins/ym4r_mapstraction/lib/mapstraction_plugin/helper.rb
+END
+overlay.rb
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/church_finder/!svn/ver/108/trunk/vendor/plugins/ym4r_mapstraction/lib/mapstraction_plugin/overlay.rb
+END
+mapstraction.rb
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/church_finder/!svn/ver/108/trunk/vendor/plugins/ym4r_mapstraction/lib/mapstraction_plugin/mapstraction.rb
+END
+routing.rb
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/church_finder/!svn/ver/108/trunk/vendor/plugins/ym4r_mapstraction/lib/mapstraction_plugin/routing.rb
+END
+mapping.rb
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/church_finder/!svn/ver/108/trunk/vendor/plugins/ym4r_mapstraction/lib/mapstraction_plugin/mapping.rb
+END

@@ -1,0 +1,11 @@
+<%=javascript_include_tag 'prototype'%>
+<%= calendar_date_select_includes "red"  %>
+<p><%=flash[:notice]%></p>
+<h1>New service<%=@div_id%></h1>
+
+<% form_for ([@church, @service])  do |f| %>
+  <%= f.error_messages %>
+<%= render :partial =>@service, :locals => { :f=>f} %>
+  <%= f.submit "Save" %>
+<%end%>
+

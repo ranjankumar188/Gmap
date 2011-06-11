@@ -1,0 +1,45 @@
+<%=javascript_include_tag 'prototype'%>
+<%= calendar_date_select_includes "red"  %>
+<%=javascript_include_tag :defaults%>
+<div class="list_church">Church Listings</div>
+<div style="float :left"><%=link_to 'Search', :action=>'search'%></div>
+<div style="float :right"><%= link_to_remote 'Add a church', :url => new_church_path , :update =>"church_display", :before => "$('church_display').toggle()" %></div>
+<div id="church_display" style="display :none"></div>
+<br/>
+<br/>
+<br/>
+<div>
+<table border=1 cellspacing=0 width=100%>
+  <tr>
+  	<th>Name</th>
+	<th>Address</th>
+	<th>Denomination</th>
+	<th>Phone Number</th>
+	<th>Services</th>
+	<th>Events</th>
+  </tr>
+ 
+<% for church in @churches %>
+  
+  <tr>
+    <td><%=church.name%></td>
+	<td width=200px><%=church.street%>,<%=church.city%>,<%=church.state.name%></td>
+	<td><%=church.denomination.name%></td>
+	<td><%=church.area_code%>-<%=church.phone%>-<%=church.std_code%></td>
+	<td><%= link_to_remote "#{Church.upcoming_service(church)} Services Add/Edit",:url => church_services_path(church), :update => "#{church.id}", :method => :get, :id =>church.id, :before => "$('#{church.id}').toggle();" %></td>
+	<td><%= link_to_remote "#{Church.upcoming_event(church)} Events Add/Edit",:url => church_events_path(church), :update => "#{church.id}", :method => :get, :id =>church.id,:before => "$('#{church.id}').toggle();" %></td>
+    <td><%=link_to 'Edit', edit_church_path(church) %></td>
+    <%if @is_admin%>
+	<td><%= link_to 'Destroy', church, :confirm => 'Are you sure?', :method => :delete %></td>
+	<%end%>
+	<td><%=link_to 'Show Details', church %></td>
+  </tr>
+  <tr><td style="display :none" colspan = "8"  id=<%=church.id%>></td></tr>
+  
+<% end %>
+<%= will_paginate @churches %>
+</table>
+</div>	
+
+
+

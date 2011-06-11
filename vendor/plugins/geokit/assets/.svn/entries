@@ -1,0 +1,40 @@
+8
+
+dir
+373
+http://repserver/church_finder/trunk/vendor/plugins/geokit/assets
+http://repserver/church_finder
+
+
+
+2008-07-11T06:31:38.400750Z
+11
+ranjank
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+297c3135-9e9b-f341-a023-5902745cba3e
+
+api_keys_template
+file
+
+
+
+
+2008-08-06T12:07:04.292319Z
+6039b59d3286b81bcea9829617d1527c
+2008-07-11T06:31:38.400750Z
+11
+ranjank
+

@@ -1,0 +1,121 @@
+8
+
+dir
+373
+http://repserver/church_finder/trunk/vendor/plugins/geokit
+http://repserver/church_finder
+
+
+
+2008-07-21T12:00:44.511125Z
+163
+ranjank
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+297c3135-9e9b-f341-a023-5902745cba3e
+
+test
+dir
+
+assets
+dir
+
+Rakefile
+file
+
+
+
+
+2008-08-06T12:07:04.839194Z
+27a6d9221322d767ec0b88d5e8375078
+2008-07-11T06:31:38.400750Z
+11
+ranjank
+
+VERSION_HISTORY.txt
+file
+
+
+
+
+2008-08-06T12:07:04.870444Z
+6c448eadedf355f0a602c5f07834e387
+2008-07-11T06:31:38.400750Z
+11
+ranjank
+
+init.rb
+file
+
+
+
+
+2008-08-06T12:07:04.901694Z
+1380c0e66ec146b1488b2fa2a502808e
+2008-07-11T06:31:38.400750Z
+11
+ranjank
+
+lib
+dir
+
+install.rb
+file
+
+
+
+
+2008-08-06T12:07:04.932944Z
+e732983273981fb8437e3b60659cd6bc
+2008-07-11T06:31:38.400750Z
+11
+ranjank
+
+MIT-LICENSE
+file
+
+
+
+
+2008-08-06T12:07:04.964194Z
+b5cc91893d54dcd31642163b6050ae1c
+2008-07-11T06:31:38.400750Z
+11
+ranjank
+
+about.yml
+file
+
+
+
+
+2008-08-06T12:07:04.979819Z
+a304fd489ac491d0398231b04466adb0
+2008-07-11T06:31:38.400750Z
+11
+ranjank
+
+README
+file
+
+
+
+
+2008-08-06T12:07:05.167319Z
+b28ae92ca591ffe1af1e2eb8753f264d
+2008-07-11T06:31:38.400750Z
+11
+ranjank
+

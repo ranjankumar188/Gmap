@@ -1,0 +1,87 @@
+
+		<%if session[:location]!=nil%>
+			<% form_for(:filter, :url => {:controller => "searches", :action => "update"},:html => { :method => :put })  do |f| %>
+			<div class="filter_result"><%=f.select("denomination_id",get_denomination_for_filter)%></div>
+			<div class="filter_result"><%=f.select("event_service",get_hash("event_service"))%></div>
+			<div class="filter_result">
+								<%=f.check_box  :filter_date%>
+								<%=select("filter","event_service_date",get_hash("before_after"))%>
+								<%=calendar_date_select_tag "start_date", "", :popup =>:force  %>
+			</div>
+			<div class="filter_result"><%=f.check_box  :filter_time%><%=select("filter","event_service_time",get_hash("before_after"))%><%=time_select "start_at",""%></div>
+        	<br/><br/>
+			<div div class="filter_result"><%=submit_tag("Search Result")%></div>
+           
+			</form>
+			<%end%>
+			<%with="'filter_denomination_id='+ escape($('filter_denomination_id').options[parseInt($('filter_denomination_id').value) + 1].text) + '&' + 
+				   		   'filter_event_service='+ escape($('filter_event_service').options[parseInt($('filter_event_service').value) - 1].text) + '&' + 
+						   'filter_event_service_date='+ escape($('filter_event_service_date').options[parseInt($('filter_event_service_date').value) -1].text) + '&' + 
+						   'filter_event_service_time='+ escape($('filter_event_service_time').options[parseInt($('filter_event_service_time').value) -1].text) + '&' + 
+			          	   'start_at[(4i)]='+escape($('start_at__4i').value) + '&' +
+						   'start_at[(5i)]='+escape($('start_at__5i').value)+ '&' +
+						   'start_date='+escape($('start_date').value)+ '&' +
+						   'check_date='+escape($F('filter_filter_date'))+ '&' +
+						   'check_time='+escape($F('filter_filter_time'))"%>
+			<%= observe_field 'filter_denomination_id', 
+				 :frequency => 1,
+         		 :update => 'filter_description',
+         		 :url => {:action => 'list'},
+         		 :with => with %>
+			<%= observe_field 'filter_event_service', 
+				 :frequency => 1,
+         		 :update => 'filter_description',
+         		 :url => {:action => 'list'},
+         		 :with => with %>
+			
+			<%= observe_field 'filter_event_service_date', 
+				 :frequency => 1,
+         		 :update => 'filter_description',
+         		 :url => {:action => 'list'},
+         		 :with => with%>
+						   
+			<%= observe_field 'filter_event_service_time', 
+				 :frequency => 1,
+         		 :update => 'filter_description',
+         		 :url => {:action => 'list'},
+         		 :with => with%>
+			<%= observe_field 'start_date', 
+				 :frequency => 1,
+         		 :update => 'filter_description',
+         		 :url => {:action => 'list'},
+         		 :with => with%>
+			<%= observe_field 'filter_filter_time', 
+				 :frequency => 1,
+         		 :update => 'filter_description',
+         		 :url => {:action => 'list'},
+         		 :with => with%>
+			
+			<%= observe_field 'filter_filter_date', 
+				 :frequency => 1,
+         		 :update => 'filter_description',
+         		 :url => {:action => 'list'},
+         		 :with => with%>	 	 
+						   
+			<%#= observe_field 'start_at[(4i)]', 
+				 :frequency => 1,
+         		 :update => 'filter_description',
+         		 :url => {:action => 'list'},
+         		 :with => with%>
+						   
+		<%#= observe_field 'start_at[(5i)]', 
+				 :frequency => 1,
+         		 :update => 'filter_description',
+         		 :url => {:action => 'list'},
+         		 :with => with%>
+						   
+						   
+		 
+				   
+
+								   					   
+			<div id="filter_description"></div>
+		<%else%>
+		<p>No search result found</p>
+		<%end%>
+		
+		

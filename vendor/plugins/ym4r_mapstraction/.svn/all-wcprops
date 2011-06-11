@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/church_finder/!svn/ver/108/trunk/vendor/plugins/ym4r_mapstraction
+END
+mapquest_api_key.yml.sample
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/church_finder/!svn/ver/108/trunk/vendor/plugins/ym4r_mapstraction/mapquest_api_key.yml.sample
+END
+map24_api_key.yml.sample
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/church_finder/!svn/ver/108/trunk/vendor/plugins/ym4r_mapstraction/map24_api_key.yml.sample
+END
+rakefile.rb
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/church_finder/!svn/ver/108/trunk/vendor/plugins/ym4r_mapstraction/rakefile.rb
+END
+init.rb
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/church_finder/!svn/ver/108/trunk/vendor/plugins/ym4r_mapstraction/init.rb
+END
+gmaps_api_key.yml.sample
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/church_finder/!svn/ver/108/trunk/vendor/plugins/ym4r_mapstraction/gmaps_api_key.yml.sample
+END
+install.rb
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/church_finder/!svn/ver/108/trunk/vendor/plugins/ym4r_mapstraction/install.rb
+END
+multimap_api_key.yml.sample
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/church_finder/!svn/ver/108/trunk/vendor/plugins/ym4r_mapstraction/multimap_api_key.yml.sample
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/church_finder/!svn/ver/108/trunk/vendor/plugins/ym4r_mapstraction/README
+END

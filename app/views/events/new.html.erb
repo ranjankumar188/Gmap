@@ -1,0 +1,13 @@
+<%=javascript_include_tag :defaults%>
+<%= calendar_date_select_includes "red"  %>
+<p style="color: red;font-weight:bold"><%= flash[:notice] %></p>
+
+<h1>New event</h1>
+
+<% form_for([@church,@event]) do |f| %>
+  <%= f.error_messages %>
+<%= render :partial=>@event, :locals=>{:f=>f,:button_name =>"Create"} %>
+  <%=f.submit "Save"%>
+<% end %>
+
+

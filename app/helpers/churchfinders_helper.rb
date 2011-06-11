@@ -1,0 +1,2 @@
+module ChurchfindersHelper
+end

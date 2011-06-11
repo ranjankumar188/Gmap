@@ -1,0 +1,43 @@
+8
+
+dir
+373
+http://repserver/church_finder/trunk/vendor/plugins/ym4r_gm/lib
+http://repserver/church_finder
+
+
+
+2008-07-11T06:31:38.400750Z
+11
+ranjank
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+297c3135-9e9b-f341-a023-5902745cba3e
+
+ym4r_gm.rb
+file
+
+
+
+
+2008-08-06T12:07:10.167319Z
+0ceaacb84c6fb1ab1704b7cdf39dc37b
+2008-07-11T06:31:38.400750Z
+11
+ranjank
+
+gm_plugin
+dir
+

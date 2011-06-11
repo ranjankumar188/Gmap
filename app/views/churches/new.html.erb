@@ -1,0 +1,19 @@
+<%#=javascript_include_tag :defaults%>
+<h3 style="margin-right:200px";>Add a church</h3>
+
+<% form_for(@church) do |f| %>
+
+  	<%= f.error_messages %>
+    <%= render :partial =>'form', :locals =>{:f =>f} %>
+   <p>
+   <p><%=f.submit("Save")%></p>
+   <%#= submit_to_remote 'submit', 'Save', :update => 'church234', 
+    :url => {:controller => "churches", :action => "create" } %>
+  </p>
+  
+  
+<% end %>
+
+
+
+

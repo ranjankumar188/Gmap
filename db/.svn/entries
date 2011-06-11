@@ -1,0 +1,43 @@
+8
+
+dir
+373
+http://repserver/church_finder/trunk/db
+http://repserver/church_finder
+
+
+
+2008-07-10T05:40:38.603875Z
+2
+ranjank
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+297c3135-9e9b-f341-a023-5902745cba3e
+
+schema.rb
+file
+
+
+
+
+2008-08-06T12:06:58.261069Z
+d9b356b5611012cce3b4bf68eba07b0e
+2008-07-10T05:40:38.603875Z
+2
+ranjank
+
+migrate
+dir
+
