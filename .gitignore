@@ -1,4 +1,2 @@
 log/*.log
 config/database.yml
-
-/a.sh

@@ -18,7 +18,7 @@ development:
   adapter: mysql
   database: church_finder_development
   username: root
-  password: root
+  password: ranjan
   host: localhost
 
 # Warning: The database defined as "test" will be erased and
